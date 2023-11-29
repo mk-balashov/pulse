@@ -89,16 +89,19 @@
         width: 300px
         height: 50px
     &_submit
-            width: 100%
-            height: 58px
-            color: #FFF
-            text-align: center
-            font-family: MuseoModerno
-            font-size: 16px
-            font-style: normal
-            font-weight: 500
-            line-height: normal
-            text-transform: uppercase
+        width: 100%
+        height: 58px
+        color: #FFF
+        text-align: center
+        font-family: MuseoModerno
+        font-size: 16px
+        font-style: normal
+        font-weight: 500
+        line-height: normal
+        text-transform: uppercase
+    &_mini
+        width: 135px
+        height: 44px
 
 .header
     display: flex
@@ -265,3 +268,131 @@
         img
             width: 31px
             height: 50px
+
+.catalog
+    max-width: 950px
+    margin: 0 auto
+    padding-bottom: 100px
+    h2
+        color: #0D0D0D
+        text-align: center
+        font-family: MuseoModerno
+        font-size: 30px
+        font-style: normal
+        font-weight: 400
+        line-height: 45px
+        text-transform: uppercase
+
+    &__tabs
+        display: flex
+        justify-content: center
+        margin-top: 70px
+        list-style: none
+        align-items: center
+        margin-bottom: 0
+        padding-left: 0
+    &__tab
+        list-style: none
+        color: #6B6B6B
+        text-align: center
+        font-family: MuseoModerno
+        font-size: 18px
+        font-style: normal
+        font-weight: 400
+        line-height: 18px
+        text-transform: uppercase
+        width: 222px
+        height: 52px
+        border: 2px solid #d0d0d0
+        text-align: center
+        line-height: 48px
+        transform: skewX(-25deg)
+        margin: 0 5px
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            box-shadow: 3px 10px 20px #C70101
+            border: none
+        div
+            transform: skewX(+25deg)
+        &_active
+            background-color: #C70101
+            color: #fff
+            border: none
+    &__content
+        margin-top: 60px
+    &-item
+        width: 300px
+        min-height: 440px
+        border: 2px solid #e8e8e8
+        padding: 20px 20px 26px 20px
+        &__img
+            max-width: 100%
+            height: 200px 
+            display: block
+            margin: 0 auto
+        &__subtitle
+            margin-top: 20px
+            color: #0D0D0D
+            text-align: center
+            font-family: MuseoModerno
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: normal
+            text-align: center
+        &__descr
+            color: #0D0D0D
+            font-family: MuseoModerno
+            font-size: 14px
+            font-style: normal
+            font-weight: 300
+            line-height: normal
+            margin-top: 16px
+            text-align: center
+        &__link
+            margin-top: 17px
+            color: #C70101
+            text-align: center
+            font-family: MuseoModerno
+            font-size: 14px
+            font-style: normal
+            font-weight: 500
+            line-height: 14px
+            text-decoration-line: underline
+            display: block
+        &__prices
+
+        &__footer
+            display: flex
+            justify-content: space-between
+
+        &__old-price
+            color: #555
+            font-family: MuseoModerno
+            font-size: 14px
+            font-style: normal
+            font-weight: 300
+            line-height: 14px
+            text-decoration-line: line-through
+
+        &__price
+            color: #050505
+            font-family: MuseoModerno
+            font-size: 20px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+        &__btn
+            width: 135px
+            height: 44px
+        
+        hr
+            margin-top: 19px 
+            background-color: #e8e8e8
+            border-bottom: none
+            margin-bottom: 19px 
+
+            
+        
